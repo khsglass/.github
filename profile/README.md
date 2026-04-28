@@ -1,56 +1,71 @@
 # 👋 Welcome to KHS Glass
 
-**KHS Glass** is an internal platform built to support the operations of a local glass business. It includes a fully containerized, microservices-based architecture designed for reliability, modularity, and scalability.
+KHS Glass is an internal platform built to support 
+the operations of a local glass business in Israel. 
+It is a fully containerized, microservices-based 
+system designed for reliability, modularity, and 
+scalability.
 
-🔒 Please note: Most of our repositories are **private**, as this is an ongoing commercial project.
-
----
-
-## 🚀 What We’re Building
-
-KHS Glass is a full-stack system tailored for managing a glazier business, including:
-
-- 🧾 **Customer order management** (glass dimensions, quantity, type)
-- 💬 **AI-powered chatbot** to assist with user queries and internal workflows
-- 🧠 **Session and authentication services** for tracking user activity
-- 📦 **Microservice architecture** (FastAPI, TypeScript, Docker)
-- 🛠️ Planned for future **CI/CD**, **Kubernetes**, and **cloud migration**
+🔒 Most repositories are private — ongoing commercial project.
 
 ---
 
-## 🧱 Technologies
+## 🚀 What We're Building
 
-- **Frontend**: React (TypeScript), Tailwind CSS, React Router
-- **Backend**: FastAPI (Python), Pydantic, APScheduler
-- **Infrastructure**: Docker, Docker Compose, GitHub Actions (planned)
-- **Session Management**: Secure cookie-based tracking
-- **Storage**: Currently in-memory store, DB support planned
+A full-stack system for managing a glazier business:
 
----
-
-## 📁 Repo Structure (Private)
-
-| Repo                 | Description                                |
-|----------------------|--------------------------------------------|
-| `frontend`           | Web UI built with React & TypeScript       |
-| `chatbot-service`    | Handles AI interactions and logic          |
-| `control-plane-service` | Manages sessions and routing logic    |
-| ... more coming soon |
+- 🤖 AI-powered chatbot (GPT-4o-mini) in Hebrew, Arabic, English
+- 🔐 Session management with secure cookies and CSRF protection
+- 🖼️ Gallery management with photo upload and organization
+- 🧮 Admin tools: price calculator, handwriting recognition
+- 📊 Conversation analytics and lead tracking
+- 🏗️ Microservice architecture (FastAPI, TypeScript, Docker)
 
 ---
 
-## 👷 Status
+## 🛠️ Technologies
 
-🧪 Currently under active development.  
-📦 First MVP release is being finalized.  
-☁️ Kubernetes and cloud deployment are planned next.
+- **Frontend:** React (TypeScript), Tailwind CSS, shadcn/ui
+- **Backend:** FastAPI (Python), PostgreSQL, SQLAlchemy
+- **AI:** OpenAI GPT-4o-mini
+- **Gateway:** Nginx (api.khsglass.com)
+- **Infrastructure:** Docker, Railway, GitHub Actions CI/CD
+- **Auth:** Supabase Auth (coming soon)
+- **Storage:** PostgreSQL on Railway (live)
+
+---
+
+## 📁 Repositories
+
+| Repo | Description | Status |
+|------|-------------|--------|
+| `frontend` | React + TypeScript website | ✅ Live |
+| `chatbot-service` | AI chat via GPT-4o-mini | ✅ Live |
+| `control-plane-service` | Sessions, CSRF, auth, DB | ✅ Live |
+| `api-gateway` | Nginx routing + CORS | ✅ Live |
+| `image-compression-service` | Photo optimization | 🔄 In Progress |
+| `admin-service` | Gallery + calculator | 📋 Planned |
 
 ---
 
-## 🙋‍♂️ Maintained By
+## 🌐 Live
 
-This organization is managed and maintained by [Abdalla Mahamid](https://github.com/yourusername).
-
-Feel free to follow the organization for future public updates or open-source releases.
+- Website: https://khsglass.com
+- API: https://api.khsglass.com
 
 ---
+
+## 📊 Status
+
+- ✅ Website live at khsglass.com
+- ✅ AI chatbot running (Hebrew/Arabic/English)
+- ✅ CI/CD pipeline via GitHub Actions
+- ✅ PostgreSQL database on Railway
+- 🔄 Admin panel in development
+- 📋 Authentication system planned
+
+---
+
+## 🔗 Maintained By
+
+Managed and maintained by [Abdalla Mahamid](link).
