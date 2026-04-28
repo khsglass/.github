@@ -1,7 +1,7 @@
 # 👋 Welcome to KHS Glass
 
 KHS Glass is an internal platform built to support 
-the operations of a local glass business in Israel. 
+the operations of a local glass business. 
 It is a fully containerized, microservices-based 
 system designed for reliability, modularity, and 
 scalability.
